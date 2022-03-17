@@ -1,0 +1,683 @@
+{
+  "menu": {
+    "salads": [
+      {
+        "name": "Mediterranean",
+        "price": 5.9,
+        "composition": "Mixed greens, cucumber, tomato, pepper, cherry tomatoes, radish, basil, mint, green onion, Kalamata olives and feta cheese",
+        "img": "./images/dishes/salad1.jpg"
+      },
+      {
+        "name": "Chicken Fatush",
+        "price": 8.3,
+        "composition": "Sumac with grilled chicken breast in a lemon mint dressing, olives, mint, radish, parsley, feta cheese",
+        "img": "./images/dishes/salad2.jpg"
+      },
+      {
+        "name": "Halloumi",
+        "price": 4.65,
+        "composition": "Halloumi cheese, tomatoes, bell pepper, carrots, mixed greens, pistachios, red cabbage and radish",
+        "img": "./images/dishes/salad3.jpg"
+      },
+      {
+        "name": "Sautéed Mushrooms",
+        "price": 10.25,
+        "composition": "Champignon mushrooms sautéed with caramelized onions, olive oil, garlic and herbs, on a bed of mixed greens",
+        "img": "./images/dishes/salad4.jpg"
+      },
+      {
+        "name": "Salmon",
+        "price": 8.3,
+        "composition": "Grilled Salmon steak with mixed greens, cherry tomato, red cabbage, avocado, carrots, chickpeas, chia seed",
+        "img": "./images/dishes/salad5.jpg"
+      }
+    ],
+    "sandwiches": [
+      {
+        "name": "Southwest",
+        "price": 3.55,
+        "composition": "Marinated southwest chicken, avocado, corn & black bean salsa, pepper jack cheese, chipotle aioli",
+        "img": "./images/dishes/sand1.jpg"
+      },
+      {
+        "name": "Cranberry Brie",
+        "price": 2.85,
+        "composition": "Roasted turkey, French brie, cranberry chutney, arugula, herb aioli",
+        "img": "./images/dishes/sand2.jpg"
+      },
+      {
+        "name": "Steak BLT",
+        "price": 2.9,
+        "composition": "Applewood-smoked bacon, sundried tomatoes, caramelized onions, arugula",
+        "img": "./images/dishes/sand3.jpg"
+      },
+      {
+        "name": "Santa Maria BBQ",
+        "price": 3.15,
+        "composition": "Applewood-smoked bacon, marinated BBQ chicken, cheddar cheese, housemade apple coleslaw",
+        "img": "./images/dishes/sand4.jpg"
+      }
+    ],
+    "snacks": [
+      {
+        "name": "Toast with fried egg",
+        "price": 2.6,
+        "composition": "Fried black bread, garlic sauce, fried eggs",
+        "img": "./images/dishes/snack1.jpg"
+      },
+      {
+        "name": "Avocado and egg toast",
+        "price": 3.85,
+        "composition": "Fried bread, avocado paste, poached egg, celery",
+        "img": "./images/dishes/snack2.jpg"
+      },
+      {
+        "name": "Shrimp skewers",
+        "price": 6.95,
+        "composition": "Shrimp, sweet sauce, spinach, arugula, saffron",
+        "img": "./images/dishes/snack3.jpg"
+      },
+      {
+        "name": "Chicken nuggets",
+        "price": 3.85,
+        "composition": "Breaded chicken pieces, ketchup, mayonnaise or garlic sauce",
+        "img": "./images/dishes/snack4.jpg"
+      },
+      {
+        "name": "Fish nuggets",
+        "price": 4.05,
+        "composition": "Breaded fish pieces, tartar sauce, lettuce",
+        "img": "./images/dishes/snack5.jpg"
+      },
+      {
+        "name": "Fish plate",
+        "price": 8.65,
+        "composition": "Mussels, shrimps, fish pieces, arugula, onion, cabbage",
+        "img": "./images/dishes/snack6.jpg"
+      }
+    ],
+    "breakfast": [
+      {
+        "name": "Fruit & Maple Oatmeal",
+        "price": 5.8,
+        "composition": "Oatmeal, Diced Apples, Cranberry Raisin Blend, Light Cream",
+        "img": "./images/dishes/breakfast1.jpg"
+      },
+      {
+        "name": "Classic",
+        "price": 6.45,
+        "composition": "Two eggs, three made-from-scratch buttermilk pancakes and hash browns",
+        "img": "./images/dishes/breakfast2.jpg"
+      },
+      {
+        "name": "Children's morning",
+        "price": 6.05,
+        "composition": "Milk oatmeal, honey and strawberries",
+        "img": "./images/dishes/breakfast3.jpg"
+      },
+      {
+        "name": "Strawberry Crêpes Combo",
+        "price": 5.9,
+        "composition": "Sweet pancakes with syrup (caramel, strawberries or blueberries) and fresh berries",
+        "img": "./images/dishes/breakfast4.jpg"
+      },
+      {
+        "name": "Сheesecakes",
+        "price": 4.7,
+        "composition": "Сottage cheese pancakes with apple slices and honey",
+        "img": "./images/dishes/breakfast5.jpg"
+      },
+      {
+        "name": "Vegetable omelette",
+        "price": 6.3,
+        "composition": "Two egg omelet with tomato slices, baked cherry tomatoes and mushrooms, two strips of bacon",
+        "img": "./images/dishes/breakfast6.jpg"
+      }
+    ],
+    "soup": [
+      {
+        "name": "Farmhouse Tomato Bisque",
+        "price": 7.85,
+        "composition": "Roasted tomatoes, onion, garlic, basil crème fraîche, parmesan crouton",
+        "img": "./images/dishes/soup1.jpg"
+      },
+      {
+        "name": "Creamy Mushroom",
+        "price": 7.5,
+        "composition": "Sherry cream, roasted mushrooms",
+        "img": "./images/dishes/soup2.jpg"
+      },
+      {
+        "name": "BEEF & BEAN CHILI",
+        "price": 8.2,
+        "composition": "Bold chili with red and black beans, tomatoes, and onions simmered with smoked chilies and cumin",
+        "img": "./images/dishes/soup3.jpg"
+      },
+      {
+        "name": "Chinese Onion Soup",
+        "price": 6.9,
+        "composition": "Onion, Chinese noodles chili pepper, spinach, green onion, parsley",
+        "img": "./images/dishes/soup4.jpg"
+      },
+      {
+        "name": "Red fish soup",
+        "price": 7.75,
+        "composition": "Red fish, zucchini, carrots, green onions, dill, sorrel",
+        "img": "./images/dishes/soup5.jpg"
+      }
+    ],
+    "entrees": [
+      {
+        "name": "Angel Hair Rosé",
+        "price": 16.35,
+        "composition": "Angel hair pasta tossed in creamy rosé sauce. Garnished with fresh basil and parmesan",
+        "img": "./images/dishes/entree1.jpg"
+      },
+      {
+        "name": "Salmon Filet Provencal",
+        "price": 12.35,
+        "composition": "Roasted cherry tomatoes, leeks, rosemary, thyme, oregano",
+        "img": "./images/dishes/entree2.jpg"
+      },
+      {
+        "name": "Teriyaki Chicken Thigh",
+        "price": 6.85,
+        "composition": "Chicken leg with baked vegetables (tomato, zucchini, potatoes, onions, carrots)",
+        "img": "./images/dishes/entree3.jpg"
+      },
+      {
+        "name": "Mushroom Chicken Breast",
+        "price": 9.65,
+        "composition": "Chicken breast, mashed potatoes and mushrooms",
+        "img": "./images/dishes/entree4.jpg"
+      },
+      {
+        "name": "Herb Beef Filet",
+        "price": 9.45,
+        "composition": "Beef, green asparagus, orange, rustic sauce",
+        "img": "./images/dishes/entree5.jpg"
+      },
+      {
+        "name": "Sweet & Sour Chicken",
+        "price": 11.95,
+        "composition": "Chicken pieces in sweet and sour sauce, cabbage, spinach, arugula",
+        "img": "./images/dishes/entree6.jpg"
+      },
+      {
+        "name": "Fish slice",
+        "price": 6.8,
+        "composition": "Fried fish slice on a bed of lettuce, arugula, cherry tomatoes and avocado, with lemon juice",
+        "img": "./images/dishes/entree7.jpg"
+      }
+    ],
+    "desserts": [
+      {
+        "name": "Trifle",
+        "price": 4.1,
+        "composition": "Cream cheese, berries or chocolate, honey cookie or chocolate biscuit",
+        "img": "./images/dishes/dessert1.jpg"
+      },
+      {
+        "name": "Chocolate & Banana fondant",
+        "price": 4.35,
+        "composition": "Chocolate, banana, caramel, cocoa powder",
+        "img": "./images/dishes/dessert2.jpg"
+      },
+      {
+        "name": "Ice cream cone",
+        "price": 3.65,
+        "composition": "Ice cream in a waffle cone, syrup (caramel or berry), topping (nuts, skittles, oreo, coconut)",
+        "img": "./images/dishes/dessert3.jpg"
+      },
+      {
+        "name": "Ice cream scoop & fruits",
+        "price": 3.9,
+        "composition": "Ice cream with fruit pieces, honey, berry or chocolate syrup, topping (chocolate, fruit, coconut), mint leaves",
+        "img": "./images/dishes/dessert4.jpg"
+      },
+      {
+        "name": "Fruit plate",
+        "price": 5.7,
+        "composition": "Strawberry, raspberry, banana, apple, apricot, grape",
+        "img": "./images/dishes/dessert5.jpg"
+      }
+    ],
+    "drinks": [
+      {
+        "name": "Berry juice",
+        "price": 3.35,
+        "composition": "Berries, lemon juice, water, ice",
+        "img": "./images/dishes/drink-1.jpg"
+      },
+      {
+        "name": "Mojito",
+        "price": 4.35,
+        "composition": "Lime, mint, ice, soda, rum*",
+        "img": "./images/dishes/drink-2.jpg"
+      },
+      {
+        "name": "Tequila Sunrise",
+        "price": 3.85,
+        "composition": "Orange juice, tequila*, grenadine*, ice",
+        "img": "./images/dishes/drink-3.jpg"
+      },
+      {
+        "name": "Tea & Cola",
+        "price": 2.65,
+        "composition": "Black tea, cola, lemon, sugar syrup",
+        "img": "./images/dishes/drink-4.jpg"
+      },
+      {
+        "name": "Frozen Mojito",
+        "price": 4.25,
+        "composition": "Sugar syrup, lime, mint, crushed ice, white rum",
+        "img": "./images/dishes/drink-5.jpg"
+      },
+      {
+        "name": "Old fashioned",
+        "price": 5.95,
+        "composition": "Angostura bitters*, sugar, water, bourbon*",
+        "img": "./images/dishes/drink-6.jpg"
+      },
+      {
+        "name": "Bloody Mary",
+        "price": 5.8,
+        "composition": "Tomato juice, sauce, pepper, celery, lemon, ice, vodka*",
+        "img": "./images/dishes/drink-7.jpg"
+      },
+      {
+        "name": "Wine",
+        "price": 4.8,
+        "composition": "Red semi-sweet wine*",
+        "img": "./images/dishes/drink-8.jpg"
+      }
+    ]
+  },
+  "blog": [
+    {
+      "id": 1,
+      "title": "Team building yoga! World Health and Sports Day.",
+      "articleImg": "./images/news/new1.jpg",
+      "autor": "Luke Simon",
+      "tags": [
+        "yoga",
+        "sport",
+        "health",
+        "teambuilding",
+        "fun",
+        "relax"
+      ],
+      "content": [
+        {
+          "name": "Team building yoga!",
+          "text": [
+            "On the day of health and sports, our BREW-HA-HA team joins the millions of people who breathe and live sports. Sports are not only hard exercises, but also fun, laughter and joy. Charge with positive and health with us! Join a running marathon if you can, and if you can't, just step away from your computer and do a couple of exercises with fun music.",
+            "VIRTUAL YOGA CLASS. Is your team feeling a little stressed and tight in the gams? Give them the gift of serenity through yoga. It can be a one-time event, or a standing appointment that aims to ensure ongoing well-being for your teams.",
+            "We offer two options, Vinyasa Yoga and Yin Yoga, both of which will lead to increased productivity and overall morale. Come as you are—all ability levels are welcome to participate in either option. During our 60-minute vinyasa yoga session, your team will wind down and restore their bodies in gentle poses connecting breath with movement. This is a great de-stressor for the busiest of teams. Open to all levels."
+          ],
+          "img": "./images/news/new1_1.jpg"
+        },
+        {
+          "name": "Everything you need to know about the Yoga team building activity",
+          "text": [
+            "Yoga has been shown to help people deal with stress, anxiety and the simple aches and pains we get from sitting too long with poor posture. Our bodies were designed for standing, climbing, running and jumping - a far cry from today’s sedentary lifestyle - and the physical aspect of yoga can restore flexibility by releasing tension. The mental discipline boosts self-awareness and encourages spiritual growth.",
+            "Everybody of all different fitness levels and ages can participate. Pregnant women and anyone with a chronic/serious muscular issue should make themselves known to the instructor prior to the start of the class.",
+            "Typically, the class is designed to accommodate beginners, but we can tailor the instruction to match the skill level of your group – just let us know in advance."
+          ],
+          "img": "./images/news/new1_2.jpg"
+        },
+        {
+          "name": "What happens during the Yoga team building activity",
+          "text": [
+            "Let an expert facilitator handle all preparations, planning and staging. We’ll provide an evaluation form to collect feedback and analyse results.",
+            "We can accommodate requests for specific styles of yoga, as well as Yoga Nidra which is a form of deep relaxation practiced laying down. Attendees should bring comfortable clothing that allows a good range of movement. Please note that yoga mats are not included in this service. Ask participants to bring their own mat (or a towel from home), or ask us what we can do to provide some rental mats (subject to availability).",
+            "Just arrive at the class with a positive intention and an open mind. Regular yoga practise will improve concentration, clarity of mind, decision-making and productivity.",
+            "We offer two options, Vinyasa Yoga and Yin Yoga, both of which will lead to increased productivity and overall morale. Come as you are—all ability levels are welcome to participate in either option. During our 60-minute vinyasa yoga session, your team will wind down and restore their bodies in gentle poses connecting breath with movement. This is a great de-stressor for the busiest of teams. Open to all levels."
+          ],
+          "img": "./images/news/new1_3.jpg"
+        }
+      ],
+      "date": "June 01, 2021",
+      "comments": [
+        {
+          "userName": "Jhon Whilliams",
+          "commentText": "Sport - it's my life",
+          "commentDate": "March 17, 2022 AT 14:33",
+          "userImg": "./images/chefs/chef-1.jpg"
+        },
+        {
+          "userName": "Jane Jane",
+          "commentText": "Like it!Just arrive at the class with a positive intention and an open mind. \nRegular yoga practise will improve concentration, clarity of mind, decision-making and productivity. Just arrive at the class with a positive intention and an open mind. \nRegular yoga practise will improve concentration, clarity of mind, decision-making and productivity.",
+          "commentDate": "March 17, 2022 AT 14:34",
+          "userImg": "./images/chefs/chef-1.jpg"
+        },
+        {
+          "userName": "Jhon Dou",
+          "commentText": "Regular yoga practise will improve concentration, clarity of mind, decision-making and productivity.",
+          "commentDate": "March 17, 2022 AT 18:37",
+          "userImg": "./images/chefs/chef-1.jpg"
+        },
+        {
+          "userName": "Jhon Dou",
+          "commentText": "Hello",
+          "commentDate": "March 17, 2022 AT 18:53",
+          "userImg": "./images/chefs/chef-1.jpg"
+        },
+        {
+          "userName": "Lololol",
+          "commentText": "Like it!Just arrive at the class with a positive intention and an open mind. Regular yoga practise will improve concentration, clarity of mind, decision-making and productivity. Just arrive at the class with a positive intention and an open mind.",
+          "commentDate": "March 17, 2022 AT 21:01",
+          "userImg": "./images/chefs/chef-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "New location! August 31 - open day.",
+      "articleImg": "./images/news/new2.jpg",
+      "autor": "Jina Larson",
+      "tags": [
+        "location",
+        "new",
+        "openDay",
+        "august",
+        "party"
+      ],
+      "content": [
+        {
+          "name": "What happened?",
+          "text": [
+            "Friends! We are pleased to inform you about the official opening of the new restaurant BREW-HA-HA-! in New York. Tomorrow, on August 31, 2020, a solemn event will take place on the occasion of the opening, and tomorrow we will begin to receive guests from all over the world.",
+            "Friends! We are pleased to inform you about the official opening of the new restaurant BREW-HA-HA-! in New York. Tomorrow, on August 31, 2020, a solemn event will take place on the occasion of the opening, and tomorrow we will begin to receive guests from all over the world.",
+            "Friends! We are pleased to inform you about the official opening of the new restaurant BREW-HA-HA-! in New York. Tomorrow, on August 31, 2020, a solemn event will take place on the occasion of the opening, and tomorrow we will begin to receive guests from all over the world.",
+            "Friends! We are pleased to inform you about the official opening of the new restaurant BREW-HA-HA-! in New York. Tomorrow, on August 31, 2020, a solemn event will take place on the occasion of the opening, and tomorrow we will begin to receive guests from all over the world.",
+            "Friends! We are pleased to inform you about the official opening of the new restaurant BREW-HA-HA-! in New York. Tomorrow, on August 31, 2020, a solemn event will take place on the occasion of the opening, and tomorrow we will begin to receive guests from all over the world."
+          ],
+          "img": "./images/news/new2_1.jpg"
+        },
+        {
+          "name": "What happened?",
+          "text": [
+            "I'd like to tell you about new restaurant in our neighbourhood. If you are a gourmand, I can recommend you the “Real French restaurant, located in the historic cellar, with elements of antique design and quite interesting cuisine. The restaurant is small, but very cozy and romantic.",
+            "Two floors are decorated with great taste. The restaurant is very suitable for romance and even for business meetings. The best tables for three or four are well located on a small balconies on the second floor. Luxurious selection of drinks, well-trained waiters - politely, but not intrusive. Their waiters are wonderful and attentive."
+          ],
+          "img": "./images/news/new2_2.jpg"
+        },
+        {
+          "name": "New Restoraunt",
+          "text": [
+            "You can order onion soup, duck fillet and Chateaubriand steak. All dishes are prepared, issued and served in the best traditions of French cuisine. In addition to your order, first you are brought cut French baguette and oil with herbs. When you are served the soup, you will be given as a present a little piece of salted salmon with herbs.",
+            "It is very delicious. To say the truth rates may be slightly above average, but for this level of the restaurant, in my opinion, they are more or less normal. I strongly recommend you to come here because the time spent in this restaurant has a good sense of celebration. ",
+            "Friends! We are pleased to inform you about the official opening of the new restaurant BREW-HA-HA-! in New York. Tomorrow, on August 31, 2020, a solemn event will take place on the occasion of the opening, and tomorrow we will begin to receive guests from all over the world."
+          ],
+          "img": "./images/news/new2_3.jpg"
+        },
+        {
+          "name": "When? Where? What?!",
+          "text": [
+            "When? - August 31, tomorrow!",
+            "What? - Opening of a new restaurant!",
+            "Where? - New York, Fulton Street 36/5.",
+            "Who can come? - All comers! Bring your friends, loved ones, children and parents, Everyone!"
+          ],
+          "img": "./images/news/new2_4.jpg"
+        }
+      ],
+      "date": "August 30, 2021",
+      "comments": [
+        {
+          "userName": "Jhon Dou",
+          "commentText": "Great place, cozy atmosphere. I love you!!!",
+          "commentDate": "March 17, 2022 AT 14:35",
+          "userImg": "./images/chefs/chef-1.jpg"
+        },
+        {
+          "userName": "3wert",
+          "commentText": "Is that a fountain in the photo? Is that a fountain in the photo? Is that a fountain in the photo? Is that a fountain in the photo?Is that a fountain in the photo?Is that a fountain in the photo?Is that a fountain in the photo?Is that a fountain in the photo?Is that a fountain in the photo?Is that a fountain in the photo?",
+          "commentDate": "March 17, 2022 AT 14:35",
+          "userImg": "./images/chefs/chef-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "First wedding at Brew Ha-Ha! Congratulations Rebecca!",
+      "articleImg": "./images/news/new3.jpg",
+      "autor": "Rebeca Welson",
+      "tags": [
+        "wedding",
+        "happiness",
+        "love",
+        "family"
+      ],
+      "content": [
+        {
+          "name": "Wedding is the beginning of a new family",
+          "text": [
+            "Wedding is a beautiful ceremony, when two loving people are united in marriage. Everyone hopes that this day will be only once and the married are going to be together forever. Sometimes there is also a wedding planner, who is responsible for all the procedures and manages the schedule, though it is not very popular in our country.",
+            "The main participants of the wedding are a bride and a groom. But usually there are also other people to be present at the wedding. They are a marriage officiant, a best man/men and bridesmaids, parents of the newlyweds and others.",
+            "This day occurs usually after some time of dating, meeting with parents of the future spouse and when you have made a decision to marry, great preparations should be made. There is a great list of them, but we will speak of the most common ones.",
+            "First and one of the most important things to choose is a dress. If to speak about traditional dresses they are white and chic, but there are many other extraordinary dresses to match the gown of the groom. Do not forget to purchase or rent suitable footwear, a veil and accessories."
+          ],
+          "img": "./images/news/new3_1.jpg"
+        },
+        {
+          "name": "Wedding is a happy event for two loving people.",
+          "text": [
+            "On this day would like to wish for greater happiness for newlyweds. Beautiful congratulations on wonderful wedding day will help you to show your love and care for the newlyweds. Spouses will be pleased to receive to their address kind words and generous wishes.",
+            "It’s your Wedding Day. Congrats!",
+            "Wish you love into your hearts,",
+            "Cosy hearth, good luck and wealth.",
+            "Let be strong marital bonds.",
+            " ",
+            "Be whole thing, never divide.",
+            "Respect each other, appreciate.",
+            "Let your life will be happy, bright.",
+            "And only good initiate!"
+          ],
+          "img": "./images/news/new3_2.png"
+        }
+      ],
+      "date": "October 18, 2021",
+      "comments": [
+        {
+          "userName": "Rebecca Smt",
+          "commentText": "It’s your Wedding Day. Congrats!",
+          "commentDate": "March 17, 2022 AT 14:36",
+          "userImg": "./images/chefs/chef-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "New Year party with us at Brew-Ha-Ha.",
+      "articleImg": "./images/news/new4.jpg",
+      "autor": "John Smooth",
+      "tags": [
+        "NewYear",
+        "party",
+        "fun",
+        "Santa",
+        "Miracles"
+      ],
+      "content": [
+        {
+          "name": "New Year is a time of fun and miracles",
+          "text": [
+            "A party is a great occasion to gather friends and relax at the end of the week. When you are immersed in study for the whole week, a good break is what you need. I like going to parties or organizing them at my place. Despite the fact that one needs to thoroughly clean an apartment after parties, I like to invite friends to my house. In addition, you can also clean up with friends after noisy parties. Then the process will not be boring.",
+            "Parties can be themed or simple. Themed ones are often timed to coincide with a holiday. For example, Halloween or New Year's parties are the most popular and spectacular. Proms, summer beach parties, etc. are also common. But these parties usually don't have a dress code."
+          ],
+          "img": "./images/news/new4_1.png"
+        },
+        {
+          "name": "As you meet the new year, so you will spend it",
+          "text": [
+            "Food, drink, and entertainment are an integral part of any party. An organizer decides for him-/herself how he/she will entertain the guests, what to feed and drink. As a rule, there are snacks, small desserts, or drinks on the tables.",
+            "Music is another must-have item for every party. It is the means to support guests of the event and creates the necessary mood. It is impossible to imagine such events without music.",
+            "For me, such events are a way to escape from my daily routine and spend time with friends. At such moments, everyone can get together, discuss topics of interest, just chat. After all, such time spent with loved ones is valuable and unforgettable."
+          ],
+          "img": "./images/news/new4_2.jpg"
+        },
+        {
+          "name": "Don't forget gifts. And the best gift is a ticket to the New Year's party at Brew-Ha-Ha",
+          "text": [
+            "New Year’s Day is a family holiday for many Russians. It’s celebrated on December, 31. The Russian New Year’s Eve feast is unthinkable without the traditional salads «Olivier» and «Herring under fur coat.»",
+            "The main essential elements of the Russian New Year are: a Christmas tree, a rich festive table, giving and reciving gifts, Ded Moroz and Snegurochka, watching TV-programms, clock chimes and the President’s speech.",
+            "Russian children believe in the Grandfather Frost who wears a long red fur coat, a hat and felt boots and carries gifts in a large sack on his back. Grandfather Frost often comes with his granddaughter, Snegurochka or the Snow Girl.",
+            "Every major city has New Year festivals, concerts, fairs and other celebratory events. Main squares are decorated with trees, lights and decorations, everywhere there are music and fireworks."
+          ],
+          "img": "./images/news/new4_3.jpg"
+        }
+      ],
+      "date": "December 30, 2021",
+      "comments": [
+        {
+          "userName": "Rebecca Smt",
+          "commentText": "Happy New Year!!!",
+          "commentDate": "March 17, 2022 AT 17:46",
+          "userImg": "./images/chefs/chef-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Business Week. Training from the director of Brew Ha-Ha.",
+      "articleImg": "./images/news/new5.png",
+      "autor": "Dir. Brew Ha-Ha, Albert Jhons",
+      "tags": [
+        "buisness",
+        "training",
+        "forum",
+        "mentoring",
+        "meeting"
+      ],
+      "content": [
+        {
+          "name": "FINANCIAL MANAGEMENT",
+          "text": [
+            "An entrepreneur knows the most important financial instruments for his company and knows how to work with them. He learns to optimize his production with the help of planned and actual indicators, realizes the importance of depreciation and reserve deductions, creates an individual manager's cockpit for his enterprise.",
+            "Your head is full of ideas and you have a business with great growth potential? But you can't use your full potential because you find it difficult to articulate your ideas clearly and write them down in a structured way? Then you've come to the right place!",
+            "At the one-day business plan mini-training you will learn the basics of writing a business plan, as well as be able to systematically analyze, check and plan the financial results of your business idea."
+          ],
+          "img": "./images/news/new5_1.jpg"
+        },
+        {
+          "name": "BUSINESS BASICS",
+          "text": [
+            "During the mini-training followed by individual coaching, specialists from Switzerland and local BPN experts will help you develop your own business plan. You will gain clarity on the feasibility of your business idea and learn how to clearly articulate your customer-focused business vision and implement it with specific strategies, plans and timelines.",
+            "During the theoretical part of the mini-training, you will gain knowledge on how to prepare an income statement for the next four financial years. In this calculation, you will compare the planned income from the sale of your products or services, with the estimated production costs and total production costs, and analyze whether you should go into this business.",
+            "In addition, you will learn to keep an eye on your debtors and creditors at all times and make regular depreciation charges on your building and equipment. We attach great importance to the practicality of our trainings. Therefore, you can easily understand the material being studied and use financial information about the state of your business from daily accounting to make management decisions."
+          ],
+          "img": "./images/news/new5_2.jpg"
+        },
+        {
+          "name": "MARKETING",
+          "text": [
+            "An entrepreneur receives basic information about the main business tools and masters the skills to use them. He knows how to work with his business plan. An important component of the seminars is the training of entrepreneurs in the ethical and moral standards of doing business.",
+            "The entrepreneur masters the basic marketing tools that form the basic basis for the successful sale of products and learns to apply them. During the seminar, an individual marketing concept is created.",
+            "An entrepreneur learns to understand the value of his employees, masters the skills of effective leadership. Great importance is attached to the ability to correctly identify the potential of each employee and contribute to its optimal development. The participant of the seminar must learn to be aware of his social responsibility towards the employees of his enterprise.",
+            "Upon completion of our courses, trainings, a certificate of participation is issued by the Chamber of Commerce and Industry of the Kyrgyz Republic. Certificates are not issued for master classes and webinars."
+          ],
+          "img": "./images/news/new5_3.png"
+        }
+      ],
+      "date": "February 10, 2022",
+      "comments": [
+        {
+          "userName": "DoDOdo",
+          "commentText": "The entrepreneur masters the basic marketing tools that form the basic basis for the successful sale of products and learns to apply them. During the seminar, an individual marketing concept is created.",
+          "commentDate": "March 17, 2022 AT 14:37",
+          "userImg": "./images/chefs/chef-1.jpg"
+        },
+        {
+          "userName": "******",
+          "commentText": "Therefore, you can easily understand the material being studied and use financial information about the state of your business from daily accounting to make management decisions.",
+          "commentDate": "March 17, 2022 AT 14:38",
+          "userImg": "./images/chefs/chef-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Cooking like in a restaurant. Guide from our chef.",
+      "articleImg": "./images/news/new6.jpg",
+      "autor": "John Smooth",
+      "tags": [
+        "cooking",
+        "restaurant",
+        "dishes",
+        "guide"
+      ],
+      "content": [
+        {
+          "name": "The article was created with the aim of uniting lovers in life and in a variety of dishes.",
+          "text": [
+            "If you miss your favorite dishes from the restaurant - it's time to cook them yourself in your kitchen and please the whole family. We have selected for you the best recipes for salads, hot dishes, appetizers and desserts.",
+            "Agree, beautifully served food in a restaurant or cafe is more enjoyable than the usual lunch or dinner at home. Even if the dish is prepared from ordinary products that every housewife has at hand every day. Why does food in high-end restaurants seem tastier? Because of the beautiful table setting and pleasant environment? Or maybe because you do not need to wash the dishes after eating?"
+          ],
+          "img": "./images/news/new6_1.jpg"
+        },
+        {
+          "name": "Cooking like in a restaurant: recipes for interesting dishes.",
+          "text": [
+            "In fact, you can also cook restaurant dishes at home. There are many simple recipes for preparing interesting dishes. My friend often surprises guests with unusual dishes, and her food is tastier than in a restaurant.",
+            "She listens with pleasure to compliments and assures that the main condition is desire and a creative approach to cooking. Although she prefers to enjoy desserts in her favorite cafe near the house, assuring that she fell in love with a chocolate-fruit cake from the first bite.",
+            "The general recipe for cooking all dishes: a glass of desire + a spoonful of effort + fantasy to taste. And then you can proudly declare to your friends: we cook dishes like in a restaurant."
+          ],
+          "img": "./images/news/new6_2.jpg"
+        },
+        {
+          "name": "3 summer dishes from the chef",
+          "text": [
+            "Homemade food is always delicious, it evokes thoughts of warmth, comfort and family. But still, any housewife dreams of learning how to cook like in a restaurant. There are really a lot of recipes on the net, but not all of them can be implemented in such a way that there is a feeling that the dish has just been brought by a courteous waiter in a tailcoat.",
+            "Tiramisu in Asian style.",
+            "The immortal Italian dessert tiramisu won more than one heart. But what to do if the usual combination is rather boring? We offer to move away from the classic form and taste and try something completely new. A spicy combination of oriental traditions with elements of western cuisine will not leave you indifferent."
+          ],
+          "img": "./images/news/new6_3.jpg"
+        },
+        {
+          "name": "We save time!",
+          "text": [
+            "The first secret is blanks. Any restaurant and cafe makes preparations before opening the hall and starting to receive guests. These are pre-cooked broths, chopped vegetables and fruits. Sometimes even frozen ready or almost ready meals.",
+            "Competent chefs make preparations in the evening or in the morning, before opening. But this is due precisely to the flow of guests. Housewives do not have to prepare food so often. It is enough to do this once every 1-2 weeks."
+          ],
+          "img": "./images/news/new6_5.jpg"
+        },
+        {
+          "name": "Don't forget about serving!",
+          "text": [
+            "The effect of the restaurant also lies in the correct serving of the dish and the table.",
+            "No, it is not necessary to use several different forks, spoons, knives, but you can serve the dish beautifully on an ordinary white plate.",
+            "To do this, use whole sprigs of greens (for example, a sprig of fresh parsley from 2-3 leaves), sprinkle the dish with sesame seeds, pour beautifully with a thin stream of sauce (soy, teriyaki or even mayonnaise). You need to spread the dish exactly in the middle of the plate, and if the edges are accidentally dirty, you can wipe them with a napkin. Do not forget about figuratively chopped vegetables, eggs."
+          ],
+          "img": "./images/news/new6_4.png"
+        }
+      ],
+      "date": "March 16, 2022",
+      "comments": [
+        {
+          "userName": "Alex",
+          "commentText": "The effect of the restaurant also lies in the correct serving of the dish and the table. Really? I never heard of such.",
+          "commentDate": "March 17, 2022 AT 14:31",
+          "userImg": "./images/chefs/chef-1.jpg"
+        },
+        {
+          "userName": "Jane",
+          "commentText": "Beauiteful!!!!!!!!!!!",
+          "commentDate": "March 17, 2022 AT 14:32",
+          "userImg": "./images/chefs/chef-1.jpg"
+        }
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "name": "Jhon Dou",
+      "phone": "+996556755760",
+      "email": "nastya.podgornaya02@gmail.com",
+      "subject": "Pros'ba",
+      "text": "нплнеьрпке",
+      "id": 1
+    }
+  ]
+}

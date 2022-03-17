@@ -1,0 +1,95 @@
+.footer{
+    background-color: #141313;
+    height: 380px;
+    padding: 20px;
+    margin-top: 50px;
+    .container{
+        display: flex;
+    }
+    h5{
+        font-family: Acme, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+    }
+    &__main{
+        width: 320px;
+        padding: 40px 20px 0 0;
+        box-sizing: border-box;
+        .logoLink{
+            display: flex;
+        }
+        p{
+            margin-top: 20px;
+        }
+    }
+
+    &__text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.7);
+        text-align: justify;
+    }
+    &__details{
+        width: 280px;
+        padding: 40px 20px 0 20px;
+        box-sizing: border-box;
+        ul{
+            margin-top: 20px;
+        }
+        li{
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__contacts{
+        width: 200px;
+        padding: 40px 20px 0 20px;
+        box-sizing: border-box;
+        .footer__text{
+            display: flex;
+            margin-top: 20px;
+        }
+        div{
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 30px;
+                width: 30px;
+                background-color: white;
+                border-radius: 30%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    &__images{
+        width: 400px;
+        padding: 40px 0 0 0;
+        box-sizing: border-box;
+        &-content{
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            .footer__img{
+                width: 130px;
+                height: 100px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+        
+    }
+}

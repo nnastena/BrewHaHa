@@ -1,0 +1,111 @@
+.contacts{
+    .heading{
+        margin-bottom: 20px;
+    }
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 50px 0 100px 0;
+    }
+    &__item{
+        width:auto;
+        text-align: start;
+    }
+    &__position{
+        color: rgb(47, 45, 78);
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    &__name{
+        color: rgb(47, 45, 78);
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+        margin: 10px 0;
+    }
+    &__link{
+        text-decoration: none;
+        color: rgba(47, 45, 78, 0.4);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+    &__text{
+        width: 800px;
+        text-align: center;
+        margin: 0 auto;
+        color:#2f2d4e;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 33px;
+    }
+    &__form{
+        width: 705px;
+        margin: 30px auto;
+        div{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__input1{
+        box-sizing: border-box;
+        margin: 10px 0;
+        width: 340px;
+        height: 50px;
+        border: 1px solid rgba(47, 45, 78, 0.1);
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        color: rgba(47, 45, 78, 0.8);
+    }
+    &__input2{
+        box-sizing: border-box;
+        margin: 10px 0;
+        width: 705px;
+        height: 50px;
+        border: 1px solid rgba(47, 45, 78, 0.1);
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        color: rgba(47, 45, 78, 0.8);
+    }
+    &__input3{
+        width: 705px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        display: flex;
+        align-items: flex-start;
+        height: 150px;
+        border: 1px solid rgba(47, 45, 78, 0.1);
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        color: rgba(47, 45, 78, 0.6);
+    }
+    &__button{
+        height: 60px;
+        width: 250px;
+        background-color: rgba(47, 45, 78, 0.8);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        color: white;
+        border: none;
+        margin-top: 30px;
+        &:hover{
+            font-weight: 700;
+            background-color: rgba(47, 45, 78, 0.3);
+            color:rgb(47, 45, 78);
+        }
+        &:active{
+            font-weight: 700;
+            background-color: rgba(47, 45, 78, 0.1);
+            border: 1px solid rgba(47, 45, 78, 0.8);
+        }
+    }
+}
